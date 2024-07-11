@@ -1,4 +1,4 @@
-module github.com/tidwall/wal
+module github.com/altinity/wal
 
 go 1.13
 

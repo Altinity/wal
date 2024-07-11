@@ -18,7 +18,7 @@ A simple and fast write ahead log for Go.
 To start using `wal`, install Go and run `go get`:
 
 ```sh
-$ go get -u github.com/tidwall/wal
+$ go get -u github.com/altinity/wal
 ```
 
 This will retrieve the library.
@@ -67,12 +67,6 @@ err = log.Write(1000, []byte("thousandth entry"))
 err = log.TruncateFront(350)
 err = log.TruncateBack(950)
 ```
-
-
-
-## Contact
-
-Josh Baker [@tidwall](http://twitter.com/tidwall)
 
 ## License
 
